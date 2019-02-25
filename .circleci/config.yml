@@ -5,6 +5,4 @@ jobs:
       - image: circleci/python:3
     steps:
       - checkout
-      - run: echo "A first hello"
-      - run: docker build -t pyml .
-      - run: ./run.sh
+      - run: echo "test"
