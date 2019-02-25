@@ -1,8 +1,8 @@
 # dockertest
 a test of docker using tensorflow keras and stuff
 
-#setup
+# setup
 ```docker build -t pyml .```
 
-#run
+# run
 ```./run.sh```
