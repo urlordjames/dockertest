@@ -5,4 +5,4 @@ jobs:
       - image: circleci/python
     steps:
       - checkout
-      - run: echo "test"
+      - run: python3 makemodel.py
