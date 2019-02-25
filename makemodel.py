@@ -13,6 +13,8 @@ model.add(tf.keras.layers.Flatten())
 model.add(tf.keras.layers.Dense(256, activation=tf.nn.relu))
 model.add(tf.keras.layers.Dense(10, activation=tf.nn.softmax))
 
+asdasdasdhiausdbasda;a;sdhub #attempt to trigger circleci fail
+
 model.compile(optimizer="nadam",
         loss="sparse_categorical_crossentropy",
         metrics=["accuracy"])
